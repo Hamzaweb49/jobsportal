@@ -1,0 +1,82 @@
+.rightbar{
+    flex: 1.2;
+    //    &::-webkit-scrollbar{
+    //         width: 0.2rem;
+    //     }
+    //     &::-webkit-scrollbar-track{
+    //         background-color: themed("bg");
+    //     }
+    //     &::-webkit-scrollbar-thumb{
+    //         background-color: themed("border");
+    //     }
+
+    .container{
+        padding: 1rem;
+
+
+        .item{
+
+            
+            margin: 1.2rem 0;
+            span{
+                color: gray;
+            }
+
+            .itemHeading{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span{
+                    cursor: pointer;
+                    font-weight: 500;
+                    color: rgb(239, 94, 94);
+                }
+
+                p{
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: #222;
+                }
+
+            }
+
+            .job{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 1rem 0;
+                gap: 0.6rem;
+
+                
+
+
+                .jobInfo{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.4rem;
+
+                    input{
+                        width: 1.2rem;
+                        height: 1.2rem;
+
+                        &:checked{
+                            background-color: #222;
+                        }
+                    }
+
+                    span{
+                        color: #222;
+                    }
+                }
+
+
+
+              
+
+            }
+
+        }
+    }
+
+}

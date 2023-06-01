@@ -1,0 +1,14 @@
+.bookmarks{
+    display: flex;
+
+    .bookmarksContainer{
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+
+        .mainContainer{
+            display: flex;
+        }
+
+    }
+}

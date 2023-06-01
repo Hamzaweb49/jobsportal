@@ -1,0 +1,103 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    border-bottom: 0.01rem solid rgb(228, 222, 222);
+    font-size: 1rem;
+    color: #555;
+
+
+    .wrapper{
+        width: 100%;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+
+        .search{
+            display: flex;
+            align-items: center;
+            margin-right: 1.2rem;
+            padding: 0.7rem;
+            width: 20%;
+            color: #222;
+            background-color: #f3f3f3;
+            input{
+                border: none;
+                margin-left: 0.5rem;
+                outline: none;
+                background-color: transparent;
+                font-size: 1rem;
+            }
+        }
+
+        button{
+           border: none;
+           padding: 0.8rem;
+           color: #f3f3f3;
+           background-color: #222;
+           cursor: pointer;
+           font-weight: 700;
+        }
+        
+        
+        .items{
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin-right: 1.2rem;
+                position: relative;
+
+                .icon{
+                    font-size: 1.4rem;
+                }
+
+                .avatar{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-right: 0.6rem;
+                }
+
+                p{
+                    font-size: 1rem;
+                    font-weight: 700;
+                    color: #222;
+                    margin-bottom: -0.3rem;
+                }
+
+                span{
+                    font-size: 0.8rem;
+                    color: #888;
+                }
+
+                .counter{
+                    width: 1rem;
+                    height: 1rem;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 0.6rem;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -0.25rem;
+                    right: -0.25rem;
+                }
+
+                .listIcon{
+                    display: none;
+                }
+            }
+
+        }
+
+    }
+}
